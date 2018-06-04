@@ -14,6 +14,7 @@
 		FEBC06CB20C5062200752C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC06C920C5062200752C68 /* LaunchScreen.storyboard */; };
 		FEBC06D620C5062200752C68 /* Simple_MapViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC06D520C5062200752C68 /* Simple_MapViewTests.swift */; };
 		FEBC06E120C5062200752C68 /* Simple_MapViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC06E020C5062200752C68 /* Simple_MapViewUITests.swift */; };
+		FEBC06F020C506B500752C68 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBC06EF20C506B500752C68 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FEBC06DC20C5062200752C68 /* Simple MapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple MapViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBC06E020C5062200752C68 /* Simple_MapViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_MapViewUITests.swift; sourceTree = "<group>"; };
 		FEBC06E220C5062200752C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBC06EF20C506B500752C68 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBC06F020C506B500752C68 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				FEBC06D420C5062200752C68 /* Simple MapViewTests */,
 				FEBC06DF20C5062200752C68 /* Simple MapViewUITests */,
 				FEBC06BE20C5062000752C68 /* Products */,
+				FEBC06EE20C506B400752C68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				FEBC06E220C5062200752C68 /* Info.plist */,
 			);
 			path = "Simple MapViewUITests";
+			sourceTree = "<group>";
+		};
+		FEBC06EE20C506B400752C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC06EF20C506B500752C68 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
